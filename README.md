@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  License CC BY-NC 4.0 · <a href="https://huggingface.co/NODEMIND/SHADOW-250M">Hugging Face page</a>
+  License MIT · <a href="https://huggingface.co/NODEMIND/SHADOW-250M">Hugging Face page</a>
 </p>
 
 ## Get it running in one minute
@@ -196,7 +196,7 @@ The pirate demonstration in [FINETUNING.md](FINETUNING.md) is the worked example
 
 ## Fine-tuning
 
-Everything needed is in `finetune/`; the 539 MB master weights download from the Hugging Face page (finetune/shadow250m_instruct.pt).
+Everything needed is in `finetune/`, including the 539 MB master weights.
 
 Yes, you can fine-tune it, on one GPU, and export your own 52 MB model for CPU. We did it
 ourselves as a demonstration: 90 minutes on a laptop GPU turned SHADOW into a pirate
